@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    font-size: 1.2rem;
+    justify-items: center;
+}
+
+input {
+    width: 20rem;
+}
+
+#display {
+    background-color: beige;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+}
