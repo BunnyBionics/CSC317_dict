@@ -1,16 +1,88 @@
+:root {
+  color: #222222;
+  font-family: "Baskervville", serif;
+}
+
 body {
-    background-color: bisque;
-    font-size: 1.2rem;
-    justify-items: center;
+  background-color: bisque;
+  font-size: 1.2rem;
+  justify-items: center;
+}
+
+button {
+  border-radius: 15px;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  background-color: #ee844b;
+}
+
+button:hover {
+  background-color: ivory;
+    cursor: pointer;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  padding-left: 0.5em;
 }
 
 input {
-    width: 20rem;
+  border-radius: 15px;
+  height: 3vh;
+  font-size: 1em;
+  padding-left: 0.5em;
+  width: 20rem;
+}
+
+li {
+  padding: 0.5%;
+}
+
+footer {
+  background-color: antiquewhite;
+    border-radius: 15px;
+display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  width: 90vw;
+}
+
+footer a {
+  display: flex;
+}
+
+footer img {
+  align-self: center;
+  width: 5vh;
+}
+
+footer p {
+  margin-left: 0.5em;
 }
 
 #display {
-    background-color: beige;
-    margin: 1rem;
-    padding: 1rem;
-    width: 80%;
+  background-color: ivory;
+    border-radius: 15px;
+
+  margin: 1rem;
+  padding: 1em;
+  width: 90vw;
+}
+
+@media (orientation: portrait) {
+  #def_form {
+    display:grid;
+    justify-items: center;
+  }
+
 }
